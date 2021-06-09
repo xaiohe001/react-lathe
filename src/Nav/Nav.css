@@ -1,0 +1,63 @@
+.app {
+    width: 100%;
+    height: 88px;
+  }
+.app_nav{
+    width: 1200px;
+    height: 88px;
+    line-height: 88px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .app_nav_one{
+    font-size: 38px;
+    font-weight: bold;
+    color: #2474BB;
+    text-shadow: -2px 2px #fff;;
+  }
+  .app_nav_two{
+    font-size: 28px;
+    font-weight: bold;
+    color: orange;
+    font-style: italic;
+  }
+  .app_nav_two img{
+    position: relative;
+    top: -4px;
+    padding-right: 10px;
+  }
+  .image{
+    width: 100%;
+    height: 50px;
+    background: url("http://www.hanguan88.cn/style/images/nav_bg.jpg");
+    position: relative;
+  }
+  .image_ul{
+    width: 1200px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .image ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    line-height: 50px;
+    /* justify-content: center; */
+  }
+  .image ul>li{
+    height: 50px;
+    width: 125px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  .image ul>li:hover{
+    background: orange;
+    transition:all .2s linear 0.2s;
+  }

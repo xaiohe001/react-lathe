@@ -4,6 +4,8 @@ import Nav from './Nav/Nav'
 import Shuffling from './Shuffling/Shuffling'
 import {Fragment} from 'react'
 import Main from './Main/Main'
+import Introduction from './Introduction/Introduction'
+import Details from './Details/Details'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Nav />
       <Shuffling />
       <Main />
+      <Introduction />
+      <Details />
     </Fragment>
   )
 }

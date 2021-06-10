@@ -2,7 +2,7 @@ import './Main.css'
 import {useState} from 'react'
 
 function Main() {
-    let [list,setList]=useState([
+    let [list]=useState([
         {
             image:'http://www.hanguan88.cn/uploads/allimg/c180520/152D2VV3F-13257.jpg',
             title:'自动车床件6'

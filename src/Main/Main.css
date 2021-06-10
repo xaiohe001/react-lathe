@@ -54,19 +54,19 @@
     width: 260px;
     height: 250px;
     border: 1px solid #ddd;
+    transition: 0.5s;
     cursor: pointer;
 }
 .picture img:hover{
     opacity: .8;
-    transition: 0.5s;
 }
 .tit{
     text-align: center;
     height: 50px;
     margin-top: 10px;
+    transition: 0.5s;
     cursor: pointer;
 }
 .tit:hover{
     color:#ff5722;
-    transition: 0.5s;
 }

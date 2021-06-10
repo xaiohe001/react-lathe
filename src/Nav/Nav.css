@@ -55,9 +55,9 @@
     width: 125px;
     color: #fff;
     text-align: center;
+    transition: .5s;
     cursor: pointer;
   }
   .image ul>li:hover{
     background: orange;
-    transition:all .2s linear 0.2s;
   }

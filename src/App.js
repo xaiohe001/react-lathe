@@ -6,6 +6,8 @@ import {Fragment} from 'react'
 import Main from './Main/Main'
 import Introduction from './Introduction/Introduction'
 import Details from './Details/Details'
+import News from './News/News'
+import Footer from './Footer/Footer'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Main />
       <Introduction />
       <Details />
+      <News />
+      <Footer />
     </Fragment>
   )
 }

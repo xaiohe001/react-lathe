@@ -18,12 +18,12 @@ function Details() {
                         </p>
                     </div>
                     <div>
-                        <img src="https://pic.netbian.com/uploads/allimg/210307/233312-1615131192111c.jpg" alt=""></img>
+                        <img src="/img/detail1.jpg" alt=""></img>
                     </div>
                 </div>
                 <div className="detail_two">
                     <div>
-                        <img src="https://pic.netbian.com/uploads/allimg/210505/233804-16202290842da6.jpg" alt=""></img>
+                        <img src="/img/detail2.jpg" alt=""></img>
                     </div>
                     <div>
                         <div className="detail_one_pic">
@@ -52,7 +52,7 @@ function Details() {
                         </p>
                     </div>
                     <div>
-                        <img src="https://pic.netbian.com/uploads/allimg/210419/172538-16188243383ead.jpg" alt=""></img>
+                        <img src="/img/detail3.jpg" alt=""></img>
                     </div>
                 </div>
             </div>

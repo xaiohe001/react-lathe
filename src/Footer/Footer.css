@@ -1,0 +1,55 @@
+.footer{
+    width: 100%;
+    height: 150px;
+}
+.footer_top{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    color: #fff;
+    background-color: #00549A;
+}
+.footer_top_center{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer_top_center>div i{
+    font-style: normal;
+}
+.footer_top_center>div strong{
+    font-weight: normal;
+    padding: 0 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+.footer_top_center>div strong:hover{
+    color: #FFEB3B;
+}
+.footer_bottom{
+    width: 100%;
+    height: 110px;
+    background: url("http://www.hanguan88.cn/style/images/foot_bg.gif");
+    position: relative;
+}
+.footer_bottom_center{
+    width: 1200px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.footer_bottom_top{
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    padding-bottom: 13px;
+}
+.footer_bottom_down{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}

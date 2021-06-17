@@ -50,7 +50,7 @@
     line-height: 50px;
     /* justify-content: center; */
   }
-  .image ul>li{
+  .image ul li{
     height: 50px;
     width: 125px;
     color: #fff;
@@ -58,6 +58,6 @@
     transition: .5s;
     cursor: pointer;
   }
-  .image ul>li:hover{
+  .image ul li:hover{
     background: orange;
   }

@@ -1,11 +1,14 @@
 import './Nav.css'
+import { Link } from 'react-router-dom'
 
 function Nav() {
     return (
         <div>
             <div className="app">
                 <div className="app_nav">
-                    <div className="app_nav_one">车床加工</div>
+                    <Link to="/">
+                        <div className="app_nav_one">车床加工</div>
+                    </Link>
                     <div className="app_nav_two">
                         <img src="http://www.hanguan88.cn/style/css/tel.png" alt=""></img>
                         10011011010
@@ -15,13 +18,27 @@ function Nav() {
             <div className="image">
                 <div className="image_ul">
                     <ul>
-                        <li>网站首页</li>
-                        <li>关于我们</li>
-                        <li>服务项目</li>
-                        <li>服务价格</li>
-                        <li>企业新闻</li>
-                        <li>常见问题</li>
-                        <li>联系我们</li>
+                        <Link to="/">
+                            <li>网站首页</li>
+                        </Link>
+                        <Link to="/Jump">
+                            <li>关于我们</li>
+                        </Link>
+                        <Link to="/Serve">
+                            <li>服务项目</li>
+                        </Link>
+                        <Link to="Price">
+                            <li>服务价格</li>
+                        </Link>
+                        <Link to="CorporateNews">
+                            <li>企业新闻</li>
+                        </Link>
+                        <Link to="CommonProblem">
+                            <li>常见问题</li>
+                        </Link>
+                        <Link to="Contactus">
+                            <li>联系我们</li>
+                        </Link>    
                     </ul>
                 </div>
             </div>

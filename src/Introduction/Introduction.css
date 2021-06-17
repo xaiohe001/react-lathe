@@ -43,17 +43,18 @@
     color: #fff;
     line-height: 30px;
 }
-.company_bottom div:nth-of-type(2) p{
+.company_bottom div:nth-of-type(2) a>p{
     width: 130px;
     height: 38px;
     line-height: 38px;
     text-align: center;
     margin-top: 30px;
     transition: .5s;
+    color: #fff;
     cursor: pointer;
     border: 1px solid #fff;
 }
-.company_bottom div:nth-of-type(2) p:hover{
+.company_bottom div:nth-of-type(2) a>p:hover{
     background-color: #ff9900;
     border: 1px solid #ff9900;
 }
